@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello I'm Hriday</title>
+    <!-- Link to the CSS file -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Link to Boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Hriday.</a>
+        <nav class="navbar">
+            <a href="#" class="active">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Portfolio</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home">
+        <div class="home-content">
+            <h1>Hi, I'm Hriday</h1>
+            <h2>Web Developer</h2>
+            <p>I am a web developer with a passion for creating amazing digital experiences.</p>
+            <div class="btn-box">
+                <a href="#">Curriculum Vitae</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+
+        <!-- Social Media Icons -->
+        <div class="home-sci">
+            <a href="https://www.linkedin.com/in/hriday-dutia-024590276/"><i class='bx bxl-linkedin-square'></i></a>
+            <a href="https://github.com/Hriday022"><i class='bx bxl-github'></i></a>
+            <a href="https://www.instagram.com/hriday___27/"><i class='bx bxl-instagram'></i></a>
+        </div>
+        
+    </section>
+
+    <script>
+        // Scroll effect for header
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('.header');
+            header.classList.toggle('scrolled', window.scrollY > 0);
+        });
+    </script>
+
+</body>
+</html>
